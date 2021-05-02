@@ -33,3 +33,5 @@ HOW TO USE
 Edit CRS.py, store your clientID and secret in their respective variables 'token_client_id'/'token_secret'
 
 Run AHdump.py from terminal, and enter a realm name when prompted. If the realm name can be matched to its corresponding slug, the auction data for that realm will be saved as a .csv file with the current date.
+
+DISCLAIMER: This is only setup for US realms. To setup for EU/OCE just swap the region and import your own realm list json file.
