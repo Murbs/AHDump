@@ -54,7 +54,7 @@ def main():
                     auction_dump_df.to_csv(filename, index=False)
 
     def input_realm_id():
-            user_input = str(input('Input Realm name:')).lower()
+            user_input = str(input('Input realm name:')).lower()
             if user_input in realm_slug:
                 get_realm_id(user_input)
             else:
