@@ -16,7 +16,7 @@ REQUIREMENTS
 To use this tool you need the following:
  - A blizzard account
  - An OAuth client
- - ClientID and secret
+ - Client ID and secret
  - Something that can read .CSV files
  - Python
 
@@ -30,8 +30,27 @@ All other modules are included with python 3.x, or this repo.
 HOW TO USE
 ---
 
-Edit CRS.py, store your clientID and secret in their respective variables 'token_client_id'/'token_secret'
+Store your client ID/secret as environment variables. Personally, I use [pipenv](https://pypi.org/project/pipenv/).
 
-Run AHdump.py from terminal, and enter a realm name when prompted. If the realm name can be matched to its corresponding slug, the auction data for that realm will be saved as a .csv file with the current date.
+```PowerShell
+cd <path to AHDump>
+
+pipenv --python 3.x  # Change to whatever current compatible version of python
+```
+
+This should generate a pipfile and a .lock file, that houses venv data like python version, libraries etc.
+
+If using pipenv, run AHdump.py from terminal.
+
+```PowerShell
+cd <path to AHDump>
+
+pipenv run AHDump.py
+#Loading .env environment variables...
+#Input Realm name:<slug>
+#CSV file exports to cd
+```
+
+Enter a realm name when prompted. If the realm name can be matched to its corresponding slug, the auction data for that realm will be saved as a .csv file with the current date to your current directory. Refer to realm_slug.txt for a list of valid realm names.
 
 DISCLAIMER: This is only setup for US realms. To setup for EU/OCE just swap the region and import your own realm list json file.
