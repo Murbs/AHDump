@@ -46,8 +46,11 @@ If using pipenv, run AHdump.py from terminal.
 cd <path to AHDump>
 
 pipenv run AHDump.py
+
 #Loading .env environment variables...
-#Input Realm name:<slug>
+
+Input realm name: Magtheridon #Replace with desired realm slug
+
 #CSV file exports to cd
 ```
 
