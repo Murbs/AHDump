@@ -16,8 +16,8 @@ REQUIREMENTS
 To use this tool you need the following:
  - A blizzard account
  - An OAuth client
- - Client ID and secret
- - Something that can read .CSV files
+ - Client id and secret
+ - Something that can read .csv files
  - Python
 
 DEPENDENCIES
