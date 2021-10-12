@@ -2,15 +2,6 @@
 
 AHDump is a personal project to teach myself how to use the [Blizzard API](https://develop.battle.net/) in conjunction with python scripting.
 
-TODO
----
- - Implement task scheduler, to collect data on refresh
- - Coordinate itemID with lookups for item names
- - Sort data into structured categories
- - Display text while tool is retrieving data
-
-Other things you could do past that, would be graphing/heatmaps similar to [The Undermine Journal](https://theunderminejournal.com/). 
-
 REQUIREMENTS
 ---
 To use this tool you need the following:
